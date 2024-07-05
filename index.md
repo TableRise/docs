@@ -39,42 +39,42 @@ Existem várias formas de contribuir com o projeto, seja ele através de código
 
 Ajude a melhorar a experiência do usuário, criando novas funcionalidades, corrigindo bugs, melhorando a interface, entre outros.
 
-📃 [Acesse o guia de frontend](/guides/frontend).
+📃 [Acesse o guia de frontend](/guides/frontend.md).
 
 #### Backend
 
 Ajude a melhorar a performance do servidor, criando novas rotas, corrigindo bugs, melhorando a segurança, entre outros.
 
-📃 [Acesse o guia de backend](/guides/backend).
+📃 [Acesse o guia de backend](/guides/backend.md).
 
 #### Documentação
 
 Ajude a melhorar a documentação do projeto, criando novos guias, corrigindo erros, melhorando a organização, entre outros.
 
-📃 [Acesse o guia de documentação](/guides/docs).
+📃 [Acesse o guia de documentação](/guides/docs.md).
 
 #### Design
 
 Ajude a melhorar o design do projeto, criando novas interfaces, corrigindo erros, melhorando a experiência do usuário, entre outros.
 
-📃 [Acesse o guia de design](/guides/design).
+📃 [Acesse o guia de design](/guides/design.md).
 
 #### Tradução
 
 Ajude a melhorar a acessibilidade do projeto, traduzindo a documentação, interfaces, mensagens, entre outros.
 
-📃 [Acesse o guia de tradução](/guides/translation).
+📃 [Acesse o guia de tradução](/guides/translation.md).
 
 #### Testes
 
 Ajude a melhorar a qualidade do projeto, criando novos testes, corrigindo bugs, melhorando a cobertura, entre outros.
 
-📃 [Acesse o guia de testes](/guides/tests).
+📃 [Acesse o guia de testes](/guides/tests.md).
 
 #### Revisão
 
 Ajude a melhorar a qualidade do projeto, revisando códigos, documentações, interfaces, entre outros.
 
-📃 [Acesse o guia de revisão](/guides/review).
+📃 [Acesse o guia de revisão](/guides/review.md).
 
 ---
