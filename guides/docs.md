@@ -69,18 +69,19 @@ Para mais informações sobre a formatação do Markdown, consulte a [documenta�
 
 > [!IMPORTANT]
 >
-> Antes de enviar sua contribuição, verifique se já existe uma issue aberta para o problema ou a sugestão que você deseja abordar. Caso contrário, crie uma nova issue descrevendo o que você pretende fazer.
+> Antes de enviar sua contribuição, verifique se já existe uma [issue](https://github.com/TableRise/docs/issues) aberta para o problema ou a sugestão que você deseja abordar. Caso contrário, crie uma nova issue descrevendo o que você pretende fazer.
 
 ### Fork e Pull Request
 
-1. Faça um fork do repositório.
-2. Crie uma branch para a sua contribuição: `git checkout -b feat/<ISSUE_ID>/nome-da-sua-contribuição`.
-3. Faça as alterações necessárias na documentação.
-4. Verifique se a documentação está formatada corretamente.
-5. Adicione e comite as alterações: `git add . && git commit -m "Adiciona nome-da-sua-contribuição"`.
-6. Faça o push para a sua branch: `git push origin feat/<ISSUE_ID>/nome-da-sua-contribuição`.
-7. Crie um Pull Request para a branch `main` do repositório original.
-8. Aguarde a revisão e a aprovação da sua contribuição.
+1. Faça um fork do repositório desejado. Por exemplo, [este repositório](https://github.com/TableRise/docs).
+2. Clone o repositório para a sua máquina local: `git clone https://github.com/<USUÁRIO>/<REPOSITÓRIO>.git`.
+3. Crie uma branch para a sua contribuição: `git checkout -b feat/<ISSUE_ID>/nome-da-sua-contribuição`.
+4. Faça as alterações necessárias na documentação.
+5. Verifique se a documentação está formatada corretamente.
+6. Adicione e comite as alterações: `git add . && git commit -m "Adiciona nome-da-sua-contribuição"`.
+7. Faça o push para a sua branch: `git push origin feat/<ISSUE_ID>/nome-da-sua-contribuição`.
+8. Crie um Pull Request para a branch `main` do repositório original.
+9. Aguarde a revisão e a aprovação da sua contribuição.
 
 Após seguir esses passos, sua contribuição será avaliada pela equipe responsável e, se aprovada, será incorporada à documentação do projeto.
 
