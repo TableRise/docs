@@ -57,11 +57,6 @@ Abaixo, listamos alguns elementos básicos de formatação do Markdown, para aju
 | Código | `` `código` `` para destacar trechos de código. |
 | Bloco de código | `` ```código``` `` para criar um bloco de código. |
 | Citação | `> texto` para criar uma citação. |
-| Nota | `> [!NOTE] texto` para criar uma nota. |
-| Dica | `> [!TIP] texto` para criar uma dica. |
-| Aviso | `> [!WARNING] texto` para criar um aviso. |
-| Importante | `> [!IMPORTANT] texto` para destacar uma informação importante. |
-| Cuidado | `> [!CAUTION] texto` para alertar sobre um possível problema. |
 
 Para mais informações sobre a formatação do Markdown, consulte a [documentação oficial](https://www.markdownguide.org/basic-syntax/).
 
