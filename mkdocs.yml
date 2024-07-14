@@ -1,0 +1,63 @@
+site_name: TableRise Docs
+site_description: Documentação oficial do TableRise
+site_url: https://docs.tablerise.com
+site_author: TableRise
+
+repo_name: Editar no GitHub
+repo_url: https://github.com/TableRise/docs
+
+nav:
+  - Home: index.md
+  - Contribua:
+      - Guia: contribute/guide.md
+      - Documentação: contribute/docs.md
+      - Design: contribute/design.md
+      - Frontend: contribute/frontend.md
+      - Backend: contribute/backend.md
+      - Testes: contribute/tests.md
+      - Tradução: contribute/translation.md
+
+theme:
+  name: material
+  icon:
+    repo: fontawesome/brands/github
+    admonition:
+      type: material/alert-circle
+  logo: assets/tablerise.png
+  favicon: assets/tablerise.png
+  language: pt-BR
+
+  palette:
+    # Default color palette
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+      primary: black
+      accent: deep purple
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+      primary: black
+      accent: deep purple
+
+  features:
+    - navigation.footer
+    - navigation.top
+    # - toc.integrate
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/TableRise
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid

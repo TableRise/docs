@@ -1,26 +1,15 @@
 # Guia de contribuição para documentações
 
-## Sumário
-
-1. [Introdução](#introdução)
-2. [Ferramentas](#ferramentas)
-3. [Padrões de escrita](#padrões-de-escrita)
-4. [Sintaxes básicas do Markdown](#sintaxes-básicas-do-markdown)
-5. [Envie sua contribuição](#envie-sua-contribuição)
-
-## Introdução
-
 A documentação é uma parte essencial de qualquer projeto, pois é através dela que os usuários e desenvolvedores conseguem entender como o projeto funciona, como utilizá-lo e como contribuir com ele. Por isso, é importante que a documentação seja clara, objetiva e completa.
 
 ## Ferramentas
 
-Para escrever a documentação do projeto, utilizamos o Markdown, uma linguagem de marcação simples e fácil de aprender. Com o Markdown, é possível criar documentos com formatação básica, como títulos, listas, links, imagens, entre outros.
+Para escrever a documentação do projeto, utilizamos o Markdown, uma linguagem de marcação simples e fácil de aprender. Com o Markdown, é possível criar documentos com formatação básica, como títulos, listas, links, imagens, entre outros. Para renderizar o site da documentação, utilizamos o [MkDocs](https://www.mkdocs.org/) com o tema [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/).
 
 Para visualizar a documentação em tempo real, recomendamos o uso do [VS Code](https://code.visualstudio.com/), um editor de código gratuito e open source, que possui suporte nativo para Markdown.
 
-### Instalação
-
-Para instalar o VS Code, acesse o [site oficial](https://code.visualstudio.com/) e faça o download da versão compatível com o seu sistema operacional.
+!!! tip "Dica"
+    Para instalar o VS Code, acesse o [site oficial](https://code.visualstudio.com/) e faça o download da versão compatível com o seu sistema operacional.
 
 ### Extensões recomendadas
 
@@ -58,13 +47,12 @@ Abaixo, listamos alguns elementos básicos de formatação do Markdown, para aju
 | Bloco de código | `` ```código``` `` para criar um bloco de código. |
 | Citação | `> texto` para criar uma citação. |
 
-Para mais informações sobre a formatação do Markdown, consulte a [documentação oficial](https://www.markdownguide.org/basic-syntax/).
+Para mais informações sobre a formatação do Markdown, consulte a [documentação oficial](https://www.markdownguide.org/basic-syntax/). Veja também as referências do [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/reference/).
 
 ## Envie sua contribuição
 
-> [!IMPORTANT]
->
-> Antes de enviar sua contribuição, verifique se já existe uma [issue](https://github.com/TableRise/docs/issues) aberta para o problema ou a sugestão que você deseja abordar. Caso contrário, crie uma nova issue descrevendo o que você pretende fazer.
+!!! warning "Importante"
+    Antes de enviar sua contribuição, verifique se já existe uma [issue](https://github.com/TableRise/docs/issues) aberta para o problema ou a sugestão que você deseja abordar. Caso contrário, crie uma nova issue descrevendo o que você pretende fazer.
 
 ### Fork e Pull Request
 
@@ -80,4 +68,5 @@ Para mais informações sobre a formatação do Markdown, consulte a [documenta�
 
 Após seguir esses passos, sua contribuição será avaliada pela equipe responsável e, se aprovada, será incorporada à documentação do projeto.
 
-## Obrigado por contribuir! 🚀
+!!! success "Parabéns"
+    Obrigado por contribuir! 🚀
