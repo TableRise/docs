@@ -3,7 +3,7 @@ site_description: Documentação oficial do TableRise
 site_url: https://docs.tablerise.com
 site_author: TableRise
 
-repo_name: Editar no GitHub
+repo_name: GitHub
 repo_url: https://github.com/TableRise/docs
 
 nav:
@@ -25,29 +25,27 @@ theme:
       type: material/alert-circle
   logo: assets/tablerise.png
   favicon: assets/tablerise.png
-  language: pt-BR
 
   palette:
-    # Default color palette
+    # default palette
     - scheme: default
       toggle:
         icon: material/weather-night
-        name: Switch to dark mode
+        name: Dark mode
       primary: black
       accent: deep purple
 
-    # Palette toggle for dark mode
+    # dark mode palette
     - scheme: slate
       toggle:
         icon: material/weather-sunny
-        name: Switch to light mode
+        name: Light mode
       primary: black
       accent: deep purple
 
   features:
     - navigation.footer
     - navigation.top
-    # - toc.integrate
 
 extra:
   social:
@@ -61,3 +59,30 @@ markdown_extensions:
       custom_fences:
         - name: mermaid
           class: mermaid
+
+plugins:
+  - i18n:
+      docs_structure: folder
+      languages:
+        # default language, do not remove
+        - locale: pt
+          default: true
+          name: Português
+          build: true
+
+        # translations
+        - locale: en
+          name: English
+          build: true
+          nav:
+            - Home: index.md
+            - Contribute:
+                - Guide: contribute/guide.md
+                - Documentation: contribute/docs.md
+                - Design: contribute/design.md
+                - Frontend: contribute/frontend.md
+                - Backend: contribute/backend.md
+                - Tests: contribute/tests.md
+                - Translation: contribute/translation.md
+
+        # add more languages below this line
