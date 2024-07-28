@@ -54,7 +54,7 @@ Para mais informações sobre a formatação do Markdown, consulte a [documenta�
 !!! warning "Importante"
     Antes de enviar sua contribuição, verifique se já existe uma [issue](https://github.com/TableRise/docs/issues) aberta para o problema ou a sugestão que você deseja abordar. Caso contrário, crie uma nova issue descrevendo o que você pretende fazer.
 
-### Fork e Pull Request
+### Pull Request
 
 1. Faça um fork do repositório desejado. Por exemplo, [este repositório](https://github.com/TableRise/docs).
 2. Clone o repositório para a sua máquina local: `git clone https://github.com/<USUÁRIO>/<REPOSITÓRIO>.git`.
